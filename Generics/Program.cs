@@ -2,8 +2,13 @@
 using Generics;
 using System;
 
-Console.WriteLine("Hello, World!");
+MyList<string> names = new MyList<string>();
 
-MyList<string> names11 = new MyList<string>();
+names.Add("Celil");
+Console.WriteLine(names.Length);
 
-names11.Add1("Cll");
+names.Add("Tuba");
+Console.WriteLine(names.Length);
+
+names.Add("Hikmet");
+Console.WriteLine(names.Length);
