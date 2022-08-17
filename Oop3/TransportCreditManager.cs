@@ -10,7 +10,7 @@ namespace Oop3
     {
         public void Add()
         {
-            Console.WriteLine("Added Personal Credit...");
+            Console.WriteLine("Added Transport Credit...");
         }
 
         public void Calculate()
