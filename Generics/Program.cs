@@ -12,3 +12,8 @@ Console.WriteLine(names.Length);
 
 names.Add("Hikmet");
 Console.WriteLine(names.Length);
+
+foreach (var item in names.Items)
+{
+    Console.WriteLine(item);
+}
